@@ -39,7 +39,7 @@ import static org.spongepowered.asm.lib.Opcodes.GETFIELD;
  * @author Brady
  * @since 9/10/2018
  */
-@Mixin(EntityLivingBase.class, priority = 1001)
+@Mixin(value = EntityLivingBase.class, priority = 1001)
 public abstract class MixinEntityLivingBase extends Entity {
 
     /**

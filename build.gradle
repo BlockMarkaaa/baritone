@@ -22,7 +22,7 @@ buildscript {
     repositories {
         maven {
             name = 'forge'
-            url = 'https://files.minecraftforge.net/maven'
+            url = 'http://lss233.littleservice.cn/repositories/minecraft'
         }
         maven {
             name = 'SpongePowered'
@@ -32,8 +32,8 @@ buildscript {
     }
 
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:4.+' // TODO: 5.+. `doHackyStuff` relies on 4.x internals.
-        classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:4.1.14' // TODO: 5.+. `doHackyStuff` relies on 4.x internals.
+        classpath 'org.spongepowered:mixingradle:0.7.32'
     }
 }
 
